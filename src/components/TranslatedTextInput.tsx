@@ -1,7 +1,7 @@
-import React from 'react'
+import './TextInput.css';
 
-export const TranslatedTextInput = () => {
+export const TranslatedTextInput = () => {  
   return (
-    <div>TranslatedTextInput</div>
+    <textarea name="translatedText" id="translatedText"></textarea>
   )
 }

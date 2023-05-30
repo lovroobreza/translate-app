@@ -1,9 +1,7 @@
-import React from 'react'
+import './TextInput.css';
 
 export const OriginTextInput = () => {
   return (
-    <div>
-        <textarea name="originText" id="originText" cols={30} rows={10}></textarea>
-    </div>
+    <textarea name="originText" id="originText"></textarea>
   )
 }
