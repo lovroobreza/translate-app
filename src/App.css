@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.app-header {
+    font-size: 32px;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.app-content {
+    display: flex;
+    margin: 0 auto;
+    height: 350px;
+    width: 90%;
+}
+
+.translated-text {
+    width: 50%;
+}
+
+.origin-text {
+    width: 50%;
+}
